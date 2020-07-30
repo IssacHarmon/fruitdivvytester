@@ -1,0 +1,48 @@
+
+
+.homebg {
+    width: 100%;
+}
+
+.homepage {
+    background-image: url('/assets/homepage-bg-01.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80%;
+  }
+  
+  @media screen and (min-width: 600px) {
+    .homepage {
+        height: 40%;
+    }
+  }
+  
+  @media screen and (min-width: 800px) {
+    .homepage {
+        height: 50%;
+    }
+  }
+  
+  @media screen and (min-width: 1000px) {
+    .homepage {
+        height: 60%;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .homepage {
+        height: 70%;
+    }
+  }
+  
+#carouselExampleIndicators {
+  height: 300px;  
+  background-color: blue;
+  
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Voltaire&display=swap');
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';

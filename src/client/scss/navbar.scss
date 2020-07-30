@@ -1,0 +1,32 @@
+$myColor: white;
+
+#logo {
+  font-size: 3.3rem;
+  margin-left: 3em;
+  color: white;
+  font-weight: 900;
+  position: sticky;
+}
+
+.dropdown > .dropdown-menu {
+  background-color: rgb(4, 102, 141);
+}
+
+.drop-nav{
+  color: white !important;
+}
+
+#main-nav {
+  background-image: url("/assets/navbar-bg.png");
+  background-size: cover;
+  background-position: center;
+  height: 68px;
+  font-family: "Voltaire";
+}
+  
+.hamburger {
+  color: white;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Voltaire&display=swap");
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
